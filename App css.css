@@ -1,0 +1,73 @@
+/* Temel Stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #6D2932;
+  color: #E8D8C4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Yazıyı ortala */
+}
+
+h1 {
+  color: black; /* Beyaz renkte yazı */
+  font-size: 36px; /* Yazıyı büyüt */
+  display: flex;
+  justify-content: center;
+}
+
+#Operations {
+  background-color:#561C24; /* Saydamlık ekleyerek içeriği daha okunabilir hale getir */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Questions {
+  font-size: 28px;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 10px; /* Sağa boşluk ekle */
+  border: none;
+  border-radius: 4px;
+  background-color: #C7B7A3;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#Operants {
+  display: flex;
+  justify-content: center; /* Butonları tam ortala */
+}
+
+#Operants button {
+  margin: 0 10px; /* Boşlukları butonlara uygula */
+}
+
+#score {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
